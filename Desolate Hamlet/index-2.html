@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<section class="cus-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="banner-heading"><h1>Career Opportunities</h1></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cus-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-sm-6 col-xs-6 text-left p-l-0 wt-100"><h2><i class="fa fa-angle-left" aria-hidden="true"></i>  Back</h2></div>
+					</div>
+				</div>
+				<div class="col-sm-12 p-l-0 p-r-0"><hr class="border"></div>
+				<div class="col-sm-3 col-xs-5 p-l-0 wt-100">
+					<div class="cus-left-bar-tab">
+						<p class="cus-main-tab-tit">Filters</p>
+						<ul class="nav nav-tabs cus-lft-tab">
+						  <li>
+						  	<p class="cus-main-tab-tit">Title</p>
+						  	<a data-toggle="tab" href="#home">Search Title</a>
+						  </li>
+						  <li>
+						  	<p class="cus-main-tab-tit">Location</p>
+						  	<a data-toggle="tab" href="#menu1">Search Location</a>
+						  </li>
+						</ul>
+						<button type="" class="btn cus-search-btn">Search</button>
+					</div>
+				</div>
+				<div class="col-sm-9 col-xs-7 p-r-0 wt-100 p-n">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="tab-content cus-tab-content">
+							  <div id="home" class="tab-pane fade in active">
+							  	<div class="outer-wrap">
+							  		<div class="col-sm-12 p-l-0 p-r-0 text-left">
+										<span class="img-icon"><img src="" alt="icon"></span>
+										<span class="job-post-tit">
+											<h3>Owner Operator</h3>
+											<p>Manhattan, NY, United States</p>
+										</span>
+									</div>
+									<div class="col-sm-12 p-l-0 p-r-0">
+										<h1>Heading 1 Owner Operator</h1>
+										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+										<h2>Heading 2</h2>
+										<ul>
+											<li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</li>
+											<li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</li>
+										</ul>
+										<h2>Heading 3</h2>
+										<ul>
+											<li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</li>
+											<li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</li>
+										</ul>
+										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+									</div>
+							  	</div>
+							  	<button type="" class="btn btn-success job-post-app-btn cus-lod-more">Apply Now</button>
+							  </div>
+							  <div id="menu1" class="tab-pane fade">
+							    <h3>Menu 1</h3>
+							    <p>Some content in menu 1.</p>
+							  </div>
+							  <div id="menu2" class="tab-pane fade">
+							    <h3>Menu 2</h3>
+							    <p>Some content in menu 2.</p>
+							  </div>
+							</div>
+
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="cus-job-no">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h1 class="cus-inline">CAN’T FIND YOUR DESIRED JOB?</h1><a href="#" class="btn btn-success btn-apply-now cus-inline">APPLY NOW</a>
+					<h1 class="top-spc">PREFER TO CALL? CALL ON <span>800-000-0000</span><br> TO APPLY OR GET ASSISTANCE</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	</section>
+	<script>
+		$(document).ready(function(){
+		 $( "button.job-post-btn" ).on( "click", function() {
+		      $(this).prev("p.job-post-dtl").toggleClass( "newClass", 1000 );
+		    });
+		});
+	</script>
+</body>
+</html>
